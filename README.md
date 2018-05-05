@@ -13,9 +13,9 @@ java -jar target\ImageTool-1.0.0.jar
 
 参数
 
-    nickname: 昵称
-    headImageUrl: 头像地址
-    qrcodeText: 生成二维码的内容
+    nickname: 昵称，示例值"尼古拉斯·星星"
+    headImageUrl: 头像地址，示例值"https://avatars0.githubusercontent.com/u/20265449?s=460&v=4"
+    qrcodeText: 生成二维码的内容，示例值"https://github.com/GongDexing"
 
 生成的海报图片保存在项目目录: **poster.jpg**，效果如下
 ![海报](poster.jpg)
@@ -26,9 +26,9 @@ java -jar target\ImageTool-1.0.0.jar
 
 参数
 
-    name: 姓名
-    rgb: 字体颜色，格式类似"#FFFFFF"
-    bgRGB: 背景颜色，格式类似"#CC99FF"
+    name: 姓名，示例值"尼古拉斯·星星"
+    rgb: 字体颜色，示例值"#FFFFFF"
+    bgRGB: 背景颜色，示例值"#CC99FF"
 
 生成的头像图片保存在项目目录: **head.jpg**，效果如下
 
